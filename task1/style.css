@@ -1,0 +1,31 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(255, 0, 140);
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        background-color: rgb(140, 0, 255);
+    }
+}
+
+#heading {
+    text-align: center;
+    color: rgb(202, 115, 202);
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+}
+
+.cat-image {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
